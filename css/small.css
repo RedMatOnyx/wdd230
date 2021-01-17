@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: lightseagreen; lawngreen mediumspringgreen mediumaquamarine mediumturqoise palegreen seagreen */
+    /* background-color: powderblue; */
+    background-color: whitesmoke;
+    /* background-color: teal; */
+    font-size: 16px;
+    line-height: 1.5;
+    /* links */
+    color: black; 
+    height: 100%;
+    /* all footer text */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Kufam', cursive;
+}
+
+h1, h2 {
+    font-size: 1.5rem;
+    margin: 0.15rem;
+    /* saddle brown */
+    color: #8B4513;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Kufam', cursive;
+    
+}
+
+header, nav, main, footer {
+    /*background-color: white;*/
+    margin: auto;
+    padding: 0.59rem;
+    max-width: 45rem;
+        /* saddle brown */
+        color: #8B4513;
+}
+hr {
+    margin-bottom: 15px;
+}
+h2, nav {
+    font-size: 1rem;
+    /* border-bottom: 1px solid #999; */
+    margin-bottom: 0.5rem;
+    color: midnightblue;
+}
+
+header {
+    margin-top: 10px;
+    padding: 1.5rem;
+}
+
+header, footer {
+    /* wheat color */
+    background-color: #F5DEB3;
+    /* saddle brown */
+    color: #8B4513;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
+
+ul {
+    /* font-family: "big caslon", geramond, serif; */
+    font-family: 'Kufam', cursive;
+}

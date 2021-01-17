@@ -1,0 +1,79 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    color: black; 
+    height: 100%;
+    font-family: 'Kufam', cursive;
+}
+h1 {
+    /* font-size: 1.5rem; */
+    /* margin: 0.15rem; */
+    margin: auto;
+    
+    color: #8B4513;
+    font-family: 'Kufam', cursive;
+}
+header, nav, main, footer {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60rem;
+    color: midnightblue;
+}
+.principle {
+    background-color: #F5DEB3;    
+    color: #8B4513;
+    border-bottom: 1px solid #999;
+    font-size: 2em;
+    padding: 5px;
+}
+a {
+    padding-left: 5px;
+}
+.company {
+    padding-left: 5px;
+    font-size: 1.5em;
+}
+header {
+    margin-top: 10px;
+    padding: 1.5rem;
+}
+header, footer {
+    background-color: #F5DEB3;
+    color: #8B4513;
+    text-align: center;
+}
+main {
+    /* max-width: 767px; */
+    /* margin: 0 auto; */
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: .8rem;
+    grid-gap: 12px;
+}
+p {
+    font-size: 1.5em;
+    padding: 5px;
+}
+main section picture img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid #bbb;
+    }
+img {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+section {
+    border: solid black 1px;
+    overflow: auto;
+    margin: 1em;
+}
+ul {
+    font-family: 'Kufam', cursive;
+}

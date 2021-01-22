@@ -1,0 +1,77 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    color: silver;
+    height: 100%;
+    font-family: 'Kufam', cursive;   
+}
+ h1, h2, h3 {
+    /* font-size: 1.5rem; */
+    margin: 0.15rem;
+    color: saddlebrown;
+    font-family: 'Kufam', cursive;
+}
+h2, p {
+    color: saddlebrown;
+}
+header, nav, main, footer {
+    margin: 5px auto;
+    padding: 0.59rem;
+    max-width: 45rem;
+}
+nav {
+	background-color: saddlebrown;
+	text-align: center;
+	box-shadow: 0 2px 15px gray;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	color: wheat;
+	text-align: center;
+	padding: 0.25rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+/* .wayfinder */
+a:hover {
+	background-color: wheat;
+    /* color: saddlebrown; */
+    color: black;
+    text-shadow: 1px 1px 5px gold;
+}
+a:active {
+    color: green;
+}
+ .wayfinder {
+	color: gold;
+  text-shadow: 1px 1px 5px black;
+}
+header, footer {
+    background-color: wheat;
+    color: saddlebrown;
+    text-align: center;
+}
+main {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    /* font-size: 0.8rem; */
+    background-color: seashell;
+}
+img {
+    max-width: 100%;
+}
+#bordercolorexample {
+    border: 5px solid moccasin;
+    padding: 10px;
+}

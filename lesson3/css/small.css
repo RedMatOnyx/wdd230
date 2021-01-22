@@ -18,7 +18,7 @@ body {
 main h1 {
     text-decoration: underline;
 }
-h2, p {
+main {
     color: saddlebrown;
 }
 header, nav, main, footer {
@@ -75,10 +75,34 @@ img {
     max-width: 100%;
     border: 3px solid moccasin;
 }
-#bordercolorexample {
-    border: 5px solid moccasin;
-    padding: 10px;
-}
 section {
     margin: 0 0 11px 0;
+}
+table {
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid moccasin;
+    padding: 5px;
+}
+#c1 {
+    background-color: silver;
+}
+#c2 {
+    background-color: seashell;
+}
+#c3 {
+    background-color: moccasin;
+}
+#c4 {
+    background-color: wheat;
+}
+#c5 {
+    background-color: gold;
+}
+#c6 {
+    background-color: green;
+}
+#c7 {
+    background-color: saddlebrown;
 }

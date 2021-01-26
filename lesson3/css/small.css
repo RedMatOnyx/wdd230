@@ -15,7 +15,8 @@ body {
     color: saddlebrown;
     font-family: 'Kufam', cursive;
 }
-main h1 {
+h2 {
+    text-align: center;
     text-decoration: underline;
 }
 main {

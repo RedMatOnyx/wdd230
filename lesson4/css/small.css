@@ -1,0 +1,113 @@
+* {
+    margin: 0; /* function ? */
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px; /* is this the right spot for 16px? or needed at all? for rem sizing? */
+    line-height: 1.5; /* use padding instead? */
+    color: silver;
+    height: 100%; /* might apply if more vertical content */
+    font-family: 'Kufam', cursive;   
+}
+h1 {
+    line-height: 1.25em;
+}
+ h1, h2, h3 {
+    /* font-size: 1.5rem; */
+    margin: 0.15rem;
+    color: saddlebrown;
+    font-family: 'Kufam', cursive;
+}
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+main {
+    /* margin: 0 auto; */
+    display: grid;
+    grid-template-columns: 1fr;
+    color: saddlebrown;
+    background-color: seashell;
+}
+header, nav, main, footer {
+    margin: auto;
+    padding: 0.59rem;
+    /* max-width: 45rem; */
+}
+/* new for preston-4 */
+header, footer {
+    background-color: wheat;
+    color: saddlebrown;
+    text-align: center; /* check with .m margin-left */
+}
+header {	
+    display: flex;	
+    align-items: center;	
+    justify-content: center;	
+}
+header img {
+    border: 3px solid moccasin;
+    width: 88px;
+    height: auto;	
+    margin-right: 2em;
+}
+header section {	
+    margin-left: 12px;	
+}
+.m {	
+    font-style: italic;	
+    letter-spacing: 2pt;	
+    margin-left: 10px;	
+    font-size: .9rem;	
+}	
+.headings {	
+    display: flex;	
+    flex-direction: column;	
+}
+nav {
+	background-color: saddlebrown;
+	box-shadow: 0 2px 15px gray;
+}
+nav a {
+    color: wheat;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none; /* removes link underline */
+	font-size: .95rem;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0; /* keeps links from scooting over in medium/large views */
+}
+.navigation li:first-child { /* displays the word "menu" and the triple bar hamburger icon */
+    display: block;
+}
+.navigation li { /* hides dropdown menu links */
+    display: none;
+}
+.responsive li {
+	display: block;
+}
+.navigation a {
+    display: block;
+}
+a:hover {
+	background-color: wheat;
+    color: saddlebrown;
+    /* color: black; */
+    text-shadow: 1px 1px 5px gold;
+}
+a:active {
+    color: green;
+}
+.wayfinder {
+    color: gold;
+    text-shadow: 1px 1px 5px black;
+}
+.contentbox { /* placeholder stuff in middle of page */	
+    border: 1px dashed black;	
+    padding: 10px;	
+    background-color: white;
+    width: 100%;	
+}

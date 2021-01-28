@@ -1,0 +1,31 @@
+@media only screen and (min-width: 37.5em) { /* 37em = 592px */
+  nav ul {
+    display: flex;
+  }
+    /* alternatively, use grid 
+    nav ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(144px, 1fr));
+} */
+.navigation li {
+    display: block; /* makes nav bar visible */
+    flex: 1 1 auto; 
+}
+.navigation li:first-child {
+    display: none;
+}
+
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  header, footer, main, nav {
+    /* border-radius: 10px; */
+  }
+  main {
+    margin: 5px auto 5px auto;
+    max-width: 40rem;
+  }
+}

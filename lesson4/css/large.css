@@ -1,0 +1,41 @@
+@media only screen and (min-width: 62.5em) { /* options: 64em is also 1028px when basefont is 16px */
+    
+    header, nav, main, footer {
+        /* margin: 10px auto; */
+        padding: .75rem;
+    }
+    main {
+        max-width: 50rem;
+      }
+      footer {
+        max-width: 60rem;
+      }
+    nav a {
+        padding: .1rem;
+    }
+        h1 {
+            font-size: 3rem;
+        }
+        h2 {
+            font-size: 2rem;
+        }
+        .m {
+            font-size: 1.5em;
+        }
+        h3 {
+            font-size: 1.5rem;
+        }
+        
+        /* header, footer, nav {
+            border-radius: 10px;
+        } */
+        header img {
+            width: 128px;
+            height: auto;
+        }
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff3232+0,aa0000+100 */
+/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /* nav {
+        background: linear-gradient(to bottom,  wheat 0%, saddlebrown 25%, saddlebrown 75%, seashell 100%); 
+        } */
+}

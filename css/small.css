@@ -7,7 +7,6 @@ body {
     /* background-color: lightseagreen; lawngreen mediumspringgreen mediumaquamarine mediumturqoise palegreen seagreen */
     /* background-color: powderblue; */
     background-color: whitesmoke;
-    /* background-color: teal; */
     font-size: 16px;
     line-height: 1.5;
     /* links */
@@ -27,7 +26,9 @@ h1, h2 {
     font-family: 'Kufam', cursive;
     
 }
-
+a {
+    color: saddlebrown
+}
 header, nav, main, footer {
     /*background-color: white;*/
     margin: auto;
@@ -43,7 +44,7 @@ h2, nav {
     font-size: 1rem;
     /* border-bottom: 1px solid #999; */
     margin-bottom: 0.5rem;
-    color: midnightblue;
+    color: saddlebrown;
 }
 
 header {

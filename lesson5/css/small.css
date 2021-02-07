@@ -1,0 +1,194 @@
+* {
+    margin: 0; /* function ? */
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px; /* is this the right spot for 16px? or needed at all? for rem sizing? */
+    line-height: 1.5; /* use padding instead? */
+    color: silver;
+    height: 100%; /* might apply if more vertical content */
+    font-family: 'Kufam', cursive;   
+}
+h1 {
+    line-height: 1.25em;
+}
+ h1, h2, h3 {
+    /* font-size: 1.5rem; */
+    margin: 0.15rem;
+    color: saddlebrown;
+    font-family: 'Kufam', cursive;
+}
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+/* main { */
+    /* margin: 0 auto; */
+    /* display: grid;
+    grid-template-columns: 1fr;
+    color: saddlebrown;
+    background-color: seashell;
+} */
+main {	
+    margin: 0 auto;	
+    max-width: 767px;	
+    padding: 10px 0 10px 0;	
+    display: grid;	
+    grid-gap: 0.5em;	
+    grid-template-columns: 1fr;	
+    font-size: .9rem;	
+    	
+}
+header, nav, main, footer {
+    margin: auto;
+    padding: 0.59rem;
+    /* max-width: 45rem; */
+}
+/* new for preston-4 */
+header, footer {
+    background-color: wheat;
+    color: saddlebrown;
+    text-align: center; /* check with .m margin-left */
+}
+header {	
+    display: flex;	
+    align-items: center;	
+    justify-content: center;	
+}
+header img {
+    border: 3px solid moccasin;
+    width: 88px;
+    height: auto;	
+    margin-right: 2em;
+}
+header section {	
+    margin-left: 12px;	
+}
+.motto {	
+    font-style: italic;	
+    letter-spacing: 2pt;	
+    margin-left: 10px;	
+    font-size: .9rem;	
+}	
+.headings {	
+    display: flex;	
+    flex-direction: column;	
+}
+nav {
+	background-color: saddlebrown;
+	box-shadow: 0 2px 15px gray;
+}
+nav a {
+    color: wheat;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none; /* removes link underline */
+	font-size: .95rem;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0; /* keeps links from scooting over in medium/large views */
+}
+.navigation li:first-child { /* displays the word "menu" and the triple bar hamburger icon */
+    display: block;
+}
+.navigation li { /* hides dropdown menu links */
+    display: none;
+}
+.responsive li {
+	display: block;
+}
+.navigation a {
+    display: block;
+}
+a:hover {
+	background-color: wheat;
+    color: saddlebrown;
+    /* color: black; */
+    text-shadow: 1px 1px 5px gold;
+}
+a:active {
+    color: green;
+}
+.wayfinder {
+    color: gold;
+    text-shadow: 1px 1px 5px black;
+}
+.contentbox { /* placeholder stuff in middle of page */	
+    border: 1px dashed black;	
+    padding: 10px;	
+    background-color: white;
+    width: 100%;	
+}
+/* new code */
+.message {	
+    display: none;	
+    position: sticky;	
+    top: 0;	
+    /* visibility: hidden; */	
+    font-size: 1em;	
+    color: green;	
+    background-color: yellow;	
+    padding: .2em;	
+  }
+  .summary {	
+    position: absolute;	
+    top: 20px;	
+    left: 20px;	
+    border: solid orange;	
+    background-color: rgb(255, 165, 0, 0.7);	
+    color: white;	
+    padding: 5px;	
+    	
+}
+.outside {	
+    position: relative;	
+}
+section img {	
+    width: 500px;	
+    height: auto;	
+}
+img {	
+    max-width: 100%;	
+}
+.fiveDay {	
+    display: none;	
+}	
+.hero {	
+    max-width: 100%;	
+}
+article {	
+    border: solid orange 3px;    	
+    padding: 10px;	
+    margin-top: 10px;	
+    display: flex;	
+    flex-direction: column;	
+}	
+.articleOverImg {	
+    /* display: flex; */	
+    /* flex-direction: column-reverse; */	
+}	
+.contactMap {	
+    background-color: whitesmoke;	
+    display: flex;	
+    align-content: space-around;	
+    justify-content: center;	
+    margin-bottom: 15px;	
+    	
+}	
+.social {	
+    grid-column: -1;	
+    margin-bottom: 10px;	
+  }	
+  div.social img {	
+    width: 40px;	
+    height: auto;	
+    /* border: 1px solid #ccc; */	
+  }	
+  i {	
+      /* border: 1px dashed yellow; */	
+      font-size: 16px;	
+      /* padding: 25px; */	
+      margin-right: 10px;	
+  }

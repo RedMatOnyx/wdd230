@@ -1,0 +1,108 @@
+@media only screen and (min-width: 37.5em) { /* 37em = 592px */
+  nav ul {
+    display: flex;
+  }
+    /* alternatively, use grid 
+    nav ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(144px, 1fr));
+} */
+.navigation li {
+    display: block; /* makes nav bar visible */
+    flex: 1 1 auto; 
+}
+.navigation li:first-child {
+    display: none;
+}
+
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  header, footer, main, nav {
+    /* border-radius: 10px; */
+  }
+  main {
+    margin: 5px auto 5px auto;
+    max-width: 40rem;
+  }
+}
+/* new code */
+.message {	
+  font-size: 1.75em;	
+  line-height: 1em;	
+}
+h3 {	
+  font-size: 1.5rem;	
+}	
+.fiveDayPics {	
+  display: grid;	
+  grid-template-columns: repeat(5, 1fr);	
+  grid-template-rows: 1fr;	
+}	
+.fiveDay {	
+  display: block;	
+}	
+.fiveDay img {	
+  max-width: 135px;	
+  border-radius: 15px;	
+  border: solid orange 4px;	
+  margin-top: -20px;	
+  margin-bottom: 10px;	
+}	
+section img {	
+  display: visible;	
+  width: 800px;	
+  height: auto;	
+}	
+section {	
+  overflow: auto;	
+}	
+.contact {	
+  display: flex;	
+  flex-direction: column;	
+  /* justify-content: start; */	
+  margin-right: 33px;	
+  padding: 15px;	
+}	
+.contactMap {	
+  display: flex;	
+  flex-direction: row;	
+  justify-content: center;	
+  margin: 25px;	
+}	
+.map {	
+  display: block;	
+  /* flex-direction: row;	
+  align-content: center; */	
+}	
+.social {	
+  display: flex;	
+  flex-direction: row;	
+  justify-content: center;	
+  /* float: clear; */	
+}	
+div.social img {	
+  margin: 0 5px 0 5px;	
+}	
+header, footer, nav {	
+  border-radius: 10px;	
+}
+article img {	
+  /* width: 155px; */	
+  /* border: solid; */	
+  float: right;	
+  width: 65%;      	
+  padding: 10px;   	
+}	
+article {	
+  display: block;	
+  overflow: auto;	
+}	
+.clearfix {	
+  clear: right;	
+  overflow: auto;	
+    
+}

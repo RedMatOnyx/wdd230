@@ -1,4 +1,4 @@
-@media only screen and (min-width: 37.5em) { /* 37em = 592px */
+@media only screen and (min-width: 630px) { /* 37em = 592px was 37.5em */
   nav ul {
     display: flex;
   }
@@ -37,13 +37,16 @@
 h3 {	
   font-size: 1.5rem;	
 }	
+/* .fiveDay h3 {
+  margin-bottom: 22px;
+} */
+.fiveDay {	
+  display: block;	
+}
 .fiveDayPics {	
   display: grid;	
   grid-template-columns: repeat(5, 1fr);	
   grid-template-rows: 1fr;	
-}	
-.fiveDay {	
-  display: block;	
 }	
 .fiveDay img {	
   max-width: 135px;	

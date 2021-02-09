@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
+<!-- https://redmatonyx.github.io/wdd230/Presentation/imgDemo.html -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -8,8 +8,8 @@
     <title>Assignment Portal for Matthias Arter</title>
     <meta name="description"
         content="Assignment portal for WDD 230-09 at BYUI.">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <!-- favicon.cc -->
-    <link rel="stylesheet" href="css/normalize.css">
+  
+    
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Kufam:wght@400;800&display=swap"
         rel="stylesheet">
@@ -21,12 +21,38 @@
 
 <body>
     <header>
-        <img type="image/webp" src="images/leaf-eater-red-fur-animal.jpg" alt="fur-ball eating leaves">
-        <h1>Matthias Arter</h1>
+        <h1>Image Size and Compression Demo</h1>
 
     </header>
     <main>
-test page
+       
+        <div class="gallery">
+                <img src="images/hero-200.jpg" alt="hero 200">
+                <img src="images/hero-200.jpg" alt="hero 200">
+                <img src="images/hero-600.jpg" alt="hero 600">
+                <img src="images/hero-600.jpg" alt="hero 600">
+                <img src="images/hero-800.jpg" alt="hero 800">
+                <img src="images/hero-800.jpg" alt="hero 800">
+                
+        </div>
+        <div class="objectFit">
+            <img src="images/hero-200.jpg" alt="hero 200">
+            <img src="images/hero-200.jpg" alt="hero 200">
+            <img src="images/hero-200.jpg" alt="hero 200">
+            <img src="images/hero-200.jpg" alt="hero 200">
+            <img src="images/hero-200.jpg" alt="hero 200">
+            <p id='aa'>demo</p>
+            <p id='bb'>demo</p>
+            <p id='cc'>demo</p>
+            <p id='dd'>demo</p>
+            <p id='ee'>demo</p>
+        </div>
+<div class="compression">
+    <h2>Image Compression</h2>
+    <img src="images/hero-lowQuality15percent800.jpg" alt="15 percent low quality image">
+</div>
+
+
 
     </main>
     <footer>
@@ -35,7 +61,7 @@ test page
         <div><span id="lastModified"></span></div>
 
     </footer>
-    <script src="js/lastmodified.js"></script>
+    <script src="scripts.js"></script>
 
 </body>
 

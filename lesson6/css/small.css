@@ -1,0 +1,218 @@
+* {
+    /* margin: 0 auto; */
+    box-sizing: border-box;
+}
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body {
+    font-size: 16px;
+    color: silver;
+    height: 100%;
+    font-family: 'Noto Serif', serif;
+    padding: 0;  
+}
+header, footer { 
+    background-color: wheat;
+    color: saddlebrown;
+    text-align: center;
+}
+/******** all other fonts besides body *******/
+h1, h2, .navigation {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 900;
+}
+.message {
+    display: none;
+    position: sticky;
+    top: 0;
+    font-size: 1em;
+    color: green;
+    background-color: yellow;
+    padding: .2em;
+  }
+h1, h2 {
+    font-size: 1.5rem;
+    margin: 0.15rem;
+    font-family: 'courier';
+}
+h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    margin: 0 auto;
+    padding: .59rem;
+    /* text-align: left; */
+    /* max-width: auto; */
+}
+.outside { /* keeps weather summary overlaying the hero banner */
+    position: relative;
+}
+.summary {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: solid moccasin;
+    background-color: rgb(255, 215, 0, 0.5);
+    color: black;
+    font-size: 1.2em;
+    line-height: .8em;
+    padding: 5px;
+}
+section img {
+    width: 500px;
+    height: auto;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+img {
+    max-width: 100%;
+}
+header img {
+    width: 80px;
+    height: auto;
+    margin-right: 12px;
+}
+header section {
+    margin-left: 12px;
+    /* margin: 10px; */
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+headings h1 {
+    font-size: 3rem;
+}
+/*  */
+.motto {
+    font-style: italic;
+    letter-spacing: 2pt;
+    margin-left: 10px;
+    font-size: .9rem;
+}
+main {
+    margin: 0 auto;
+    max-width: 767px;
+    padding: 10px 0 10px 0;
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-columns: 1fr;
+    font-size: .9rem;
+}
+#wayfindertitle {
+    margin-left: 20px;
+}
+nav {
+    background-color: saddlebrown;
+    box-shadow: 0 2px 15px gray; /* */
+}
+.fiveDay {
+    display: none;
+}
+.hero {
+    max-width: 100%;
+}
+/* .navigation { replaced with nav ul below
+    margin: 0 auto;
+	list-style: none;
+    padding: 0;
+    text-align: center;
+} */
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0; /* keeps links from scooting over in medium/large views */
+}
+.navigation li:first-child { /* ok as is */
+    display: block;
+}
+.navigation li { /* ok as is */
+	display: none;
+}
+.navigation a {
+    display: block; /* was flex */
+    /* justify-content: center;    
+    padding: 0.5rem;
+    font-size: 1.25rem;
+	text-align: left;
+	text-decoration: none;
+    color: wheat; */
+}
+nav a { /* takeover most css from .navigation a */
+    color: wheat;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none; /* removes link underline */
+	font-size: .95rem;
+}
+a:hover {
+	color: saddlebrown; /* or black */
+	background-color: wheat;
+    text-shadow: 1px 1px 5px gold;
+}
+a:active {
+    color: green;
+}
+.wayfinder {
+    color: gold;
+    text-shadow: 1px 1px 5px black;
+}
+/* .active a {background-color: #198eb3; color: #ffb870;}  */
+
+
+/* nav ul li a:hover {background-color: rgba(0,0,0,0.4);}  */
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to 
+display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
+}
+
+.map {
+    display: none;
+    max-width: 300px;
+}
+#articletitle {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    line-height: .5em;
+}
+article {
+    border: solid orange 3px;    
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.contactMap {
+    background-color: whitesmoke;
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#envelope:before {
+    content: ' \2709';
+}
+.social {
+    grid-column: -1;
+    margin-bottom: 10px;
+  }
+  div.social img {
+    width: 40px;
+    height: auto;
+    /* border: 1px solid #ccc; */
+  }
+  i {
+      /* border: 1px dashed yellow; */
+      font-size: 16px;
+      /* padding: 25px; */
+      margin-right: 10px;
+  }

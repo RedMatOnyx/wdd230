@@ -1,4 +1,4 @@
-@media only screen and (min-width: 800px) { /* 42 previous option, try 630px, 64rem large option */
+@media only screen and (min-width: 680px) { /* 42 previous option, try 630px, 64rem large option */
     /* 64em is also 1028px when basefont is 16px */
     
         /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff3232+0,aa0000+100 */
@@ -21,7 +21,8 @@
                 font-size: 1.5em;
             }
             h3 {
-                font-size: 1.5rem;display: ;
+                font-size: 1.5rem;
+                
             }
             /* .fiveDayPics {
                 display: grid;
@@ -48,7 +49,7 @@
                 background-color: wheat;
                 width: 135px;
                 border-radius: 15px;
-                border: solid mocassin 4px;
+                border: solid moccasin 4px;
                 margin-top: -20px;
                 margin-bottom: 10px;
             }

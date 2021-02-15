@@ -9,4 +9,7 @@
     .fiveDayPics div {
         width: 200px;
     }
+    header {
+        padding: .75rem;
+    }
     }

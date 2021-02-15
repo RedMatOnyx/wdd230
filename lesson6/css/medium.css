@@ -91,10 +91,10 @@
             header, footer, nav {
                 border-radius: 10px;
             }
-            header img {
+            /* header img {
                 width: 100%;
                 height: auto;
-            }
+            } */
             .navigation {
                 display: flex;
             }

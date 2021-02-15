@@ -60,7 +60,7 @@ document.querySelector(".message").style.display = "block";
 // where the condition looks at the day of the week through the Date() object and getDay() method.
 
 // ::::::::::::::WEB FONT LOADER::::::::::::::::::::
-WebFont.load({google: {families: ['Kufam', Cursive]}});
+WebFont.load({google: {families: ['Kufam']}});
           //  'Montserrat+Alternates:wght@800&family=Noto+Serif&display=swap'
 
 // :::::::::::::::WIND CHILL CALCULATION ::::::::::::::::

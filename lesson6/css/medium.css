@@ -21,7 +21,7 @@
                 font-size: 1.5em;
             }
             h3 {
-                font-size: 1.5rem;
+                font-size: 1.5rem;display: ;
             }
             /* .fiveDayPics {
                 display: grid;
@@ -30,7 +30,7 @@
             } */
             #forecastmarginleft {
                 text-align: center;
-                background-color:silver;
+                background-color:wheat;
                 border-radius: 5px;
             }
             .fiveDayPics {
@@ -44,10 +44,10 @@
             .fiveDayPics div {
                 text-align: center;
                 font-size: 1.5em;
-                background-color:silver;
+                background-color: wheat;
                 width: 135px;
                 border-radius: 15px;
-                border: solid orange 4px;
+                border: solid mocassin 4px;
                 margin-top: -20px;
                 margin-bottom: 10px;
             }

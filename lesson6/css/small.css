@@ -6,14 +6,14 @@
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 body {
     font-size: 16px;
-    color: silver;
+    color: saddlebrown;
     height: 100%;
-    font-family: 'Kufam', cursive;
+    font-family: kufam, copperplate;
     padding: 0;  
 }
 /******** all other fonts besides body *******/
 h1, h2, .navigation {
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: kufam, copperplate;
     font-weight: 900;
 }
 .message {
@@ -28,7 +28,7 @@ h1, h2, .navigation {
 h1, h2 {
     font-size: 1.5rem;
     margin: 0.15rem;
-    font-family: 'courier';
+    font-family: kufam, copperplate;
 }
 h2 {
     font-size: 1.25rem;

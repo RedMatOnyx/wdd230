@@ -30,7 +30,7 @@
             } */
             #forecastmarginleft {
                 text-align: center;
-                background-color: lightblue;
+                background-color:silver;
                 border-radius: 5px;
             }
             .fiveDayPics {
@@ -44,7 +44,7 @@
             .fiveDayPics div {
                 text-align: center;
                 font-size: 1.5em;
-                background-color: skyblue;
+                background-color:silver;
                 width: 135px;
                 border-radius: 15px;
                 border: solid orange 4px;

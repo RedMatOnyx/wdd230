@@ -8,13 +8,8 @@ body {
     font-size: 16px;
     color: silver;
     height: 100%;
-    font-family: 'Noto Serif', serif;
+    font-family: 'Kufam', cursive;
     padding: 0;  
-}
-header, footer { 
-    background-color: wheat;
-    color: saddlebrown;
-    text-align: center;
 }
 /******** all other fonts besides body *******/
 h1, h2, .navigation {
@@ -39,7 +34,11 @@ h2 {
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
 }
-
+header, footer { 
+    background-color: wheat;
+    color: saddlebrown;
+    text-align: center;
+}
 footer {
     margin: 0 auto;
     padding: .59rem;
@@ -88,11 +87,10 @@ header section {
 headings h1 {
     font-size: 3rem;
 }
-/*  */
-.motto {
+.m {
     font-style: italic;
-    letter-spacing: 2pt;
-    margin-left: 10px;
+    letter-spacing: 1pt;
+    margin-left: 20px;
     font-size: .9rem;
 }
 main {
@@ -108,8 +106,7 @@ main {
     margin-left: 20px;
 }
 nav {
-    background-color: saddlebrown;
-    box-shadow: 0 2px 15px gray; /* */
+    background-color: wheat;
 }
 .fiveDay {
     display: none;
@@ -117,54 +114,36 @@ nav {
 .hero {
     max-width: 100%;
 }
-/* .navigation { replaced with nav ul below
+.navigation {
     margin: 0 auto;
 	list-style: none;
     padding: 0;
     text-align: center;
-} */
-nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0; /* keeps links from scooting over in medium/large views */
 }
-.navigation li:first-child { /* ok as is */
+.navigation li:first-child {
     display: block;
 }
-.navigation li { /* ok as is */
+.navigation li {
 	display: none;
 }
 .navigation a {
-    display: block; /* was flex */
-    /* justify-content: center;    
+    display: flex;
+    justify-content: center;    
     padding: 0.5rem;
     font-size: 1.25rem;
 	text-align: left;
 	text-decoration: none;
-    color: wheat; */
+    color: #484c4d;
 }
-nav a { /* takeover most css from .navigation a */
-    color: wheat;
-    padding: 0.5rem;
-    text-align: center;
-    text-decoration: none; /* removes link underline */
-	font-size: .95rem;
+nav a:hover {
+	color: gold;
+    background-color: wheat;
 }
-a:hover {
-	color: saddlebrown; /* or black */
-	background-color: wheat;
-    text-shadow: 1px 1px 5px gold;
-}
-a:active {
-    color: green;
-}
-.wayfinder {
-    color: gold;
+.active a {
+    /* background-color: #198eb3;  */
     text-shadow: 1px 1px 5px black;
-}
-/* .active a {background-color: #198eb3; color: #ffb870;}  */
-
-
+    color: gold;
+} 
 /* nav ul li a:hover {background-color: rgba(0,0,0,0.4);}  */
 /* the onclick JS toggles the .reponsive class from display none (.navigation li) to 
 display block because the responsive class is added to the end of the class list like this in HTML.
@@ -184,7 +163,7 @@ display block because the responsive class is added to the end of the class list
     line-height: .5em;
 }
 article {
-    border: solid orange 3px;    
+    border: solid mocassin 3px;    
     padding: 10px;
     margin-top: 10px;
     display: flex;

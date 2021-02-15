@@ -133,11 +133,12 @@ nav {
     font-size: 1.25rem;
 	text-align: left;
 	text-decoration: none;
-    color: #484c4d;
+    color: wheat;
 }
 nav a:hover {
 	color: gold;
     background-color: wheat;
+    text-shadow: 1px 1px 5px black;
 }
 .active a {
     /* background-color: #198eb3;  */

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 42rem) { /* 64rem large option */
+@media only screen and (min-width: 630px) { /* 42 previous option, try 630px, 64rem large option */
     /* 64em is also 1028px when basefont is 16px */
     
         /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff3232+0,aa0000+100 */
@@ -9,7 +9,7 @@
       }
     
     nav {
-            background: linear-gradient(to bottom,  #6E604F 0%,#FFAA56 30%, #FFAA56 70%, #826A50 100%); 
+            background: linear-gradient(to bottom,  silver 0%,saddlebrown 25%, saddlebrown 75%, wheat 100%); 
             }
             h1 {
                 font-size: 3rem;

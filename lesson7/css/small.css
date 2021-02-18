@@ -111,7 +111,7 @@ main {
     display: grid;
     justify-content: center;
 }
-.gallery picture {
+.gallery figure {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center; /* centers the figcaption */
@@ -119,6 +119,9 @@ main {
     border: solid moccasin 2px;
     max-width: 600px;
     /* background-color: gray; */
+}
+figcaption {
+    padding: 9px;
 }
 nav {
     background-color: saddlebrown;

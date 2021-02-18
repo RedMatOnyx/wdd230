@@ -61,7 +61,7 @@ document.querySelector(".message").style.display = "block";
 
 // ::::::::::::::WEB FONT LOADER ::::::::::::::::::::
 WebFont.load({google: {families: ['Kufam']}});
-          //  'Montserrat+Alternates:wght@800&family=Noto+Serif&display=swap'
+          
 
 // :::::::::::::::WIND CHILL CALCULATION ::::::::::::::::
 // temporarily removed for this week

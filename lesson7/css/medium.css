@@ -1,0 +1,135 @@
+@media only screen and (min-width: 42rem) { /* 64rem large option */
+    /* 64em is also 1028px when basefont is 16px */
+    
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff3232+0,aa0000+100 */
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    .message {
+        font-size: 1.75em;
+        line-height: 1em;
+      }
+    
+    nav {
+            background: linear-gradient(to bottom,  #6E604F 0%,#FFAA56 30%, #FFAA56 70%, #826A50 100%); 
+            }
+            h1 {
+                font-size: 3rem;
+            }
+            h2 {
+                font-size: 2rem;
+            }
+            .m {
+                font-size: 1.5em;
+            }
+            h3 {
+                font-size: 1.5rem;
+            }
+            /* .fiveDayPics {
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                grid-template-rows: 1fr;
+            } */
+            #forecastmarginleft {
+                text-align: center;
+                background-color: lightblue;
+                border-radius: 5px;
+            }
+            .fiveDayPics {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+            }
+            .fiveDay {
+                display: block;            
+            }
+            .fiveDayPics div {
+                text-align: center;
+                font-size: 1.5em;
+                background-color: skyblue;
+                width: 135px;
+                border-radius: 15px;
+                border: solid orange 4px;
+                margin-top: -20px;
+                margin-bottom: 10px;
+            }
+            .summary {
+                font-size: 1.5em;
+                line-height: normal;
+            }
+            section img {
+                width: 800px;
+                height: auto;
+            }
+            section {
+                overflow: auto;
+            }
+            .gallerymain {
+                max-width: 100%;
+            }
+            .gallery {
+                grid-template-columns: 1fr 1fr;
+            }
+            .contact {
+                display: flex;
+                flex-direction: column;
+                margin-right: 33px;
+                padding: 15px;
+            }
+            .contactMap {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin: 25px;
+            }
+            .map {
+                display: block;
+                /* flex-direction: row;
+                align-content: center; */
+            }
+            .social {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                /* float: clear; */
+            }
+            div.social img {
+                margin: 0 5px 0 5px;
+              }
+            header, footer, nav {
+                border-radius: 10px;
+            }
+            header img {
+                width: 100%;
+                height: auto;
+            }
+            .navigation {
+                display: flex;
+            }
+            .navigation li {
+                display: block; /* change state in small view */
+                flex: 1 1 auto;
+            }
+            .navigation a {
+                display: block;
+                text-align: center;
+            }
+    
+            .navigation li:first-child {
+                display: none;
+            }
+        
+            article img {
+                float: right;
+                /* width: 65%;   */
+                width: 500px;    
+                padding: 10px;   
+            }
+            article {
+                display: block;
+                overflow: auto;
+            }
+            .clearfix {
+                clear: right;
+                overflow: auto;
+                
+            }
+    }

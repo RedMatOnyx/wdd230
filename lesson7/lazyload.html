@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Loading</title>
+    <meta name="description" content="demonstration of progressive lazy loading of images">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <!-- fonts go here if not in js file -->
+    <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/lazyload.css">
+    <!-- <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css"> -->
+
+</head>
+<body class="lazy">
+
+<h1>L..a..z..y L..o..a..d..i..n..g</h1>
+
+<picture>        
+    <img src='images/placeholdergray.png' data-src='images/lazypolyparakeet.jpeg' alt="random free picture"></picture>
+<picture>    
+    <img src='images/placeholdergray.png' data-src="https://loremflickr.com/300/400/puppy, kitten" alt="random free picture"></picture>
+<picture>
+    <img src='images/placeholdergray.png' data-src="https://placekitten.com/300/400" alt="random free picture"></picture>
+<picture>
+    <img src='images/placeholdergray.png' data-src="images/lazypillars.jpg" alt="random free picture"></picture>
+<picture>
+    <img src='images/placeholdergray.png' data-src="https://loremflickr.com/300/400/kitten,puppy" alt="random free picture"></picture>
+<picture>
+    <img src='images/placeholdergray.png' data-src="https://loremflickr.com/300/400/kitten,puppy" alt="random free picture"></picture>
+    
+<script src="js/lazy.js"></script>
+
+</body>
+</html>

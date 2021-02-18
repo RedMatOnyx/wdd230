@@ -1,4 +1,4 @@
-@media only screen and (min-width: 42rem) { /* 64rem large option */
+@media only screen and (min-width: 680px) { /* 64rem large option */
     /* 64em is also 1028px when basefont is 16px */
     
         /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff3232+0,aa0000+100 */
@@ -9,7 +9,7 @@
       }
     
     nav {
-            background: linear-gradient(to bottom,  #6E604F 0%,#FFAA56 30%, #FFAA56 70%, #826A50 100%); 
+        background: linear-gradient(to bottom,  silver 0%,saddlebrown 25%, saddlebrown 75%, wheat 100%); 
             }
             h1 {
                 font-size: 3rem;
@@ -30,8 +30,9 @@
             } */
             #forecastmarginleft {
                 text-align: center;
-                background-color: lightblue;
+                background-color: wheat;
                 border-radius: 5px;
+                padding: 11px;
             }
             .fiveDayPics {
                 display: flex;
@@ -44,10 +45,10 @@
             .fiveDayPics div {
                 text-align: center;
                 font-size: 1.5em;
-                background-color: skyblue;
+                background-color: wheat;
                 width: 135px;
                 border-radius: 15px;
-                border: solid orange 4px;
+                border: solid moccasin 4px;
                 margin-top: -20px;
                 margin-bottom: 10px;
             }
@@ -59,9 +60,9 @@
                 width: 800px;
                 height: auto;
             }
-            section {
+            /* section {
                 overflow: auto;
-            }
+            } */
             .gallerymain {
                 max-width: 100%;
             }
@@ -97,10 +98,10 @@
             header, footer, nav {
                 border-radius: 10px;
             }
-            header img {
+            /* header img {
                 width: 100%;
                 height: auto;
-            }
+            } */
             .navigation {
                 display: flex;
             }

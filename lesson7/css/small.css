@@ -47,17 +47,6 @@ footer {
 .outside { /* keeps weather summary overlaying the hero banner */
     position: relative;
 }
-.summary {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    border: solid orange;
-    background-color: rgb(255, 165, 0, 0.7);
-    color: black;
-    font-size: 1.2em;
-    line-height: .8em;
-    padding: 5px;
-}
 section img {
     width: 500px;
     height: auto;

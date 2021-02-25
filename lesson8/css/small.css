@@ -34,6 +34,8 @@ h1, h2 {
 h2 {
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
+    text-align: center;
+    text-decoration: underline;
 }
 header, footer { 
     background-color: wheat;
@@ -51,8 +53,8 @@ footer {
     position: absolute;
     top: 10px;
     left: 10px;
-    border: solid orange;
-    background-color: rgb(255, 165, 0, 0.7);
+    border: solid moccasin;
+    background-color: rgb(255, 215, 0, 0.5);
     color: black;
     font-size: 1.2em;
     line-height: .8em;
@@ -101,10 +103,6 @@ main {
     grid-gap: 0.5em;
     grid-template-columns: 1fr;
     font-size: .9rem;
-}
-.wayfindertitle {
-    margin-left: 20px;
-    text-align: left;
 }
 .gallery {
     margin-bottom: 50px;
@@ -274,7 +272,8 @@ form label.top input:required:valid {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: lightgray;
+    background-color: seashell;
+    padding: 22px;
 }
 .thanks h1 {
     font-size: 3rem;

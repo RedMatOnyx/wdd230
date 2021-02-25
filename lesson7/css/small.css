@@ -34,6 +34,8 @@ h1, h2 {
 h2 {
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
+    text-align: center;
+    text-decoration: underline;
 }
 header, footer { 
     background-color: wheat;
@@ -91,10 +93,7 @@ main {
     grid-template-columns: 1fr;
     font-size: .9rem;
 }
-.wayfindertitle {
-    margin-left: 20px;
-    text-align: left;
-}
+
 .gallery {
     margin-bottom: 50px;
     display: grid;

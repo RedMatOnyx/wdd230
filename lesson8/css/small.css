@@ -219,7 +219,8 @@ form fieldset {
     background-color: whitesmoke;
 }
 form legend {
-    color: gray;
+    color: black;
+    text-shadow: 1px 1px 5px gold;
     margin: 0 1rem;
     padding: 0 .5rem;
 }

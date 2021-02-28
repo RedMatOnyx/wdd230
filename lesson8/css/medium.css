@@ -134,6 +134,14 @@
             form {
                 margin: auto;
             }
+            form .submitBtn label.top input, form label.top select {
+                max-width: 100%;
+            }
+            .submitBtn {
+                width: 700px;
+                
+                /* margin: 0 auto; */
+            }
                 
             }
             .clearfix {

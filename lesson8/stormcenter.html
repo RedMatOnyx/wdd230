@@ -41,7 +41,7 @@
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Person Reporting</legend>
-                <label class="top"> Full Name* <input type="text" name="fname" required pattern="[A-Za-z\s]{5,}"></label>
+                <label class="top"> Full Name* <input type="text" name="fname" required pattern="[A-Za-z\s]{5,}" placeholder="mixed case, minimum 5 characters"></label>
                 <label class="top"> Email <input type="email" name="email" placeholder="username@domain.com"></label>
                 <label class="top"> Phone* <input type="tel" name="phone" required pattern="[0-9-]{10,}"></label>
                 <label class="top"> Zip* <input type="number" name="zip" required></label>
@@ -88,9 +88,12 @@
                         <option value="southPole">South Pole</option>
                     </select>
                 </label>
-                <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
-                <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
-                <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
+                <div class="dangerlevel">
+                    <p>User In-Danger Level:</p>
+                    <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
+                    <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
+                    <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
+                </div>
 
                 <label class="top">Additional Information: <input type="textarea" name="comments"></label>
                 

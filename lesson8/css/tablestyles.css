@@ -2,8 +2,10 @@ body {
     display: grid;
     justify-content: center;
     align-items: center;
-}#novGoal {
+}
+#novGoal {
     background-color: #628ca6;
+    color: white;
 }
 th {
     background-color: #628ca6;

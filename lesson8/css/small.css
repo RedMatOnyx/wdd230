@@ -282,3 +282,6 @@ form label.top input:required:valid {
     font-size: 1.5rem;
     text-align: center;
 }
+.dangerlevel {
+    margin-top: 11px;
+}

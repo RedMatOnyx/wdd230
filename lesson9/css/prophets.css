@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    /* overflow: auto; */
+}
+header, footer {
+    text-align: center;
+    background-color: rgb( 255 255 255);
+    padding: 10px;
+}
+body {
+    background-color: rgb(221 221 221);    
+}
+.cards {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr;
+    margin: 20px;
+    max-width: 100%;
+}
+section {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    max-width: 100%;
+    border: solid black 1px;
+    background-color: rgb(185 185 203);
+
+}
+img {
+    width: 80%;
+    margin: 20px;
+    box-shadow: 0 0 10px 10px darkslategray;
+}
+h2 {
+    font-size: 1.75em;
+    color: rgb(78 78 146);
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+p {
+    text-align: center;
+    margin: 0;
+}
+
+@media only screen and (min-width: 42rem) {
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (min-width: 80rem) {
+    .cards {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+}

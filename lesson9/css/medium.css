@@ -9,7 +9,7 @@
       }
     
     nav {
-            background: linear-gradient(to bottom,  silver 0%, saddlebrown 25%, saddlebrown 75%, wheat 100%); 
+        background: linear-gradient(to bottom,  silver 0%, saddlebrown 25%, saddlebrown 75%, wheat 100%); 
             }
             h1 {
                 font-size: 3rem;
@@ -45,7 +45,7 @@
             .fiveDayPics div {
                 text-align: center;
                 font-size: 1.5em;
-                background-color:wheat;
+                background-color: wheat;
                 width: 135px;
                 border-radius: 15px;
                 border: solid moccasin 4px;
@@ -147,5 +147,79 @@
             }
                 
             }
-
+            /* .townsdata img {
+                max-width: 60%;
+            }
+            .townsdata {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            } */
+    /* h2 {text-align:center;} */
+    
+    .townsdata div {
+        display: grid;
+        grid-auto-columns: 1fr;
+        /* justify-content: center; */
+        text-align: center;
+        /* align-content: center; */
+    }
+    .townsdata section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 10px 10px;
+        /* background-color: none; */
+    }
+    
+    /* copied from small */
+    /* .townsdata section {
+        background-color: skyblue;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        align-content: center;
+        margin: 20px;
+        padding: 10px;
+    } */
+    
+    /* .townsdata section div {  */
+        /* display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr; */
+        /* max-width: 100%; */
+        /* margin: .5rem auto; */
+        /* border:1px solid #bbb; */
+        /* background-color: #eee; */
+    /* } */
+    .townsdata section:nth-child(odd) img {
+        grid-column: 2;
+    }
+    .townsdata section:nth-child(odd) div {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    .townsdata img {width: 100%; height: auto;padding:0;}
+    
+    .chillChart {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .chillChart h2 {
+        grid-column: 2;
+        font-size: 3em;
+    }
+    .chillChart p {
+        grid-column: 2;
+        font-size: 1.25em;
+    }
+    .chillChart img {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    
+    
+    /* .data {background-color:#000; color:#fff;} */
+    
+    /* p {padding: .75rem;} */
     }

@@ -61,7 +61,7 @@ document.querySelector(".message").style.display = "block";
 
 // ::::::::::::::WEB FONT LOADER ::::::::::::::::::::
 WebFont.load({google: {families: ['Kufam']}});
-         
+          
 
 // :::::::::::::::WIND CHILL CALCULATION ::::::::::::::::
 // temporarily removed for this week

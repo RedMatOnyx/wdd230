@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skyline Augur</title>
+    <meta name="description" content="skyline augur weather forecast event calendar local news">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+        <aside id="notice" class="message"><p>Saturday = Preston Pancakes in the Park!</p><p>9:00 a.m. Saturday at the city park pavilion.</p> 
+        </aside>
+    <header>
+        <a href="#">
+            <picture><img src="images/logohillsun.png" alt="site logo"></picture></a>
+            <section class="headings">
+                <h1>Skyline Augur</h1>
+                <h1 class="m">Your Weather Fortune</h1>
+            </section>
+            
+    </header>
+
+    <nav>
+        
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li  class="active"><a href="#">Home</a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    
+<main>
+    
+    <h2 id="wayfindertitle">The Weather Site Home Page</h2>   
+        <picture class="hero">
+            <source media="(max-width: 670px)" srcset="images/heroprairie670.jpg">
+            <source media="(max-width: 1280px)" srcset="images/heroprairie1280.jpg">
+            <source media="(max-width: 2090px)" srcset="images/heroprairie2034.jpg">
+                <img src="images/heroprairie670.jpg" alt="hero image">
+        </picture>
+
+<div class="townsdata"></div>
+
+<article class="chillChart">
+    <div><h2>Be Aware of Wind Chill</h2><p>During the wintertime when temperatures drop into the single digits, it's important to remember how much colder it can feel when the wind starts blowing. Winds can increase the effect of cold air on our bodies, and we can face the risk of hypothermia or even frost bite in a very short amount of time. As you'll see from this chart, wind chill is a factor even in non-freezing temperatures. Be prepared for surprisingly cold weather or an unexpected overnight stay on the side of the road. Always keep emergency blankets and other warming items in your vehicle, just in case you or someone else needs to stay warm.</p></div>
+    <div>
+<img src="images/windchillchart.jpg" alt="">
+<a href="https://www.weather.gov/grb/windchill">www.weather.gov/grb/windchill</a></div>
+</article>
+
+    <div class="clearfix"></div>
+
+</main>
+
+    <footer> 
+        
+        <section>
+            <div class="contactMap">
+            <div class="contact"><h3><strong>Skyline Augur</strong></h3>        
+                <p>30 N 1st E</p>
+                <p>Preston, ID 83263</p>
+                <p>&#x260E; 999.999.9999</p>
+                <p id="envelope"> theweathersite@tws.com</p>
+                </div>
+            <img class="map" src="images/map.jpg" alt="map of preston soda springs and fish haven"></div>
+
+            <div class="social">
+                <a href="https://www.facebook.com" rel="noopener noreferrer" target="_blank">
+                    <img src="images/iconFB.png" alt="facebook icon"></a>
+                  <a href="https://www.pinterest.com" rel="noopener noreferrer" target="_blank">
+                    <img src="images/iconPinterest.png" alt="pinterest icon"></a>
+                  <a href="https://www.twitter.com" rel="noopener noreferrer" target="_blank">
+                    <img src="images/iconTwitter.png" alt="twitter icon"></a>
+                    <a href="https://www.whatsapp.com" rel="noopener noreferrer" target="_blank">
+                      <img src="images/iconWhatsapp.png" alt="twitter icon"></a>
+              </div>
+        </section>
+
+        &copy; <span id="copyrightYear"></span> | Matthias Arter | Washington | <a href="https://www.byui.edu/online">BYUI Online Learning</a> |
+        <a href="home-wireframes.html">Wireframes</a>
+        <div><span id="currentDate"></span></div>
+    </footer>   
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/towns.js"></script>
+
+
+
+</body>
+</html>

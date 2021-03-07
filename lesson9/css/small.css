@@ -299,7 +299,7 @@ form label.top input:required:valid {
     font-size: 2em;
 }
 .townsdata section {
-    background-color: skyblue;
+    background-color: wheat;
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
@@ -313,5 +313,5 @@ form label.top input:required:valid {
     margin-left: 15px;
     margin-right: 15px;
     border: none;
-    background-color: skyblue;
+    background-color: wheat;
 }

@@ -107,7 +107,7 @@
             }
             .navigation li {
                 display: block; /* change state in small view */
-                flex: 1 1 auto;
+                flex: 1 4 auto;
             }
             .navigation a {
                 display: block;
@@ -146,7 +146,7 @@
                 width: 700px;
             }
                 
-            }
+            
             /* .townsdata img {
                 max-width: 60%;
             }
@@ -218,8 +218,8 @@
     }
     
     
-    
+}
     /* .data {background-color:#000; color:#fff;} */
     
     /* p {padding: .75rem;} */
-    }
+    

@@ -80,7 +80,6 @@ header img {
 }
 header section {
     margin-left: 12px;
-    /* margin: 10px; */
 }
 .headings {
     display: flex;
@@ -120,7 +119,6 @@ main {
     margin: 20px 20px;
     border: solid moccasin 2px;
     max-width: 600px;
-    /* background-color: gray; */
 }
 figcaption {
     padding: 9px;
@@ -161,13 +159,9 @@ nav a:hover {
     text-shadow: 1px 1px 5px black;
 }
 .active a {
-    /* background-color: #198eb3;  */
+    text-shadow: 1px 1px 5px black;
     color: gold;} 
-/* nav ul li a:hover {background-color: rgba(0,0,0,0.4);}  */
-/* the onclick JS toggles the .reponsive class from display none (.navigation li) to 
-display block because the responsive class is added to the end of the class list like this in HTML.
-  <ul class="navigation responsive">
-*/
+
 .responsive li {
 	display: block;
 }

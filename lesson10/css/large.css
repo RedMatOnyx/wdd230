@@ -4,7 +4,7 @@
         max-width: 80rem;
     }
     hero {
-        width: 1fr;
+        width: 80%;
     }
     .summary {
         font-size: 1.8em;

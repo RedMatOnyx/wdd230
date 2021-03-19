@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skyline Augur</title>
+    <meta name="description" content="skyline augur weather forecast event calendar local news">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+        <!-- <aside id="notice" class="message"><p>Saturday = Preston Pancakes in the Park!</p><p>9:00 a.m. Saturday at the city park pavilion.</p> 
+        </aside> -->
+    <header>
+        <a href="#">
+            <picture><img src="images/logohillsun.png" alt="site logo"></picture></a>
+            <section class="headings">
+                <h1>Skyline Augur</h1>
+                <h1 class="m">Your Weather Fortune</h1>
+            </section>
+    </header>
+
+    <nav>
+        
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>	
+            <li><a href="index.html">Home</a></li>	
+            <li><a href="preston.html">Preston</a></li>	
+            <li class="active"><a href="sodasprings.html">Soda Springs</a></li>	
+            <li><a href="fishhaven.html">Fish Haven</a></li>	
+            <li><a href="stormcenter.html">Storm Center</a></li>	
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    
+<main>
+    
+    <h2 id="wayfindertitle">Soda Springs</h2>
+    <div class="contentbox outside">
+
+    <picture class="hero">
+        <source media="(max-width: 670px)" srcset="images/sodahero670.jpg">
+            <source media="(max-width: 1280px)" srcset="images/sodahero1280.jpg">
+            <source media="(max-width: 2090px)" srcset="images/sodahero2034.jpg">
+                <img src="images/sodahero670.jpg" alt="hero image">
+    </picture>
+    
+
+    <div class="summary"><h2>Weather Summary</h2>
+    <p>Currently: <span id="currdesc">eye see</span></p>
+    <p>Temperature: <span id="currtemp">99</span><span> &#8457;</span></p>    
+    <p>Humidity: <span id="humidity">99</span><span>%</span></p>
+    <p>Wind Speed: <span id="speed">150</span><span> mph</span></p>
+    <p>Wind Chill: <span id="chill">50 &#8457;</span></p>
+</div></div>
+    
+    <div>
+        <div class="fiveDay">
+        <h3 id="forecastmarginleft">5-Day Forecast</h3>
+        <div class="fiveDayPics">
+            
+        <div><h3 id="dayofweek1">Sunday</h3>
+            <img id="icon1" src="images/cloudrain.png" alt="weather forcast image">
+            <p><span id=forecast1>43</span><span> &#8457;</span></p></div>
+        <div><h3 id="dayofweek2">Monday</h3>
+            <img id="icon2" src="images/snowcloudsun.png" alt="weather forcast image">
+            <p><span id=forecast2>43</span><span> &#8457;</span></p></div>
+        <div><h3 id="dayofweek3">Tuesday</h3>
+            <img id="icon3" src="images/cloudsun.png" alt="weather forcast image">
+            <p><span id=forecast3>43</span><span> &#8457;</span></p></div>
+        <div><h3 id="dayofweek4">Wednesday</h3>
+            <img id="icon4" src="images/cloudsunrain.png" alt="weather forcast image">
+            <p><span id=forecast4>43</span><span> &#8457;</span></p></div>
+        <div><h3 id="dayofweek5">Thursday</h3>
+            <img id="icon5" src="images/sunshine.png" alt="weather forcast image">
+            <p><span id=forecast5>43</span><span> &#8457;</span></p></div>
+    </div></div>
+    <article>
+        <img class="articleimg" src="images/sodasprings1024.jpg" alt="placeholder image">
+        <div class="ArticleOverImg"><h3 id="articletitle">Sipping Soda</h3>
+        <p>Put Soda Springs on your map this year! Come visit the natural geological wonders of Soda Springs and experience some of the amazing wonders of this little planet in your own back yard. And have a drink to remember it by. -disclaimer: acid ponds are not safe to drink. Go to the local store for information.</p></div>
+        </article>
+    </div>
+    <div class="clearfix"></div>
+
+</main>
+
+    <footer> 
+        
+        <section>
+            <div class="contactMap">
+            <div class="contact"><h3><strong>Skyline Augur</strong></h3>        
+                <p>30 N 1st E</p>
+                <p>Preston, ID 83263</p>
+                <p>&#x260E; 999.999.9999</p>
+                <p id="envelope"> theweathersite@tws.com</p>
+                </div>
+            <img class="map" src="images/map.jpg" alt="map of preston soda springs and fish haven"></div>
+
+            <div class="social">
+                <a href="https://www.facebook.com" rel="noopener noreferrer" target="_blank">
+                    <img src="images/iconFB.png" alt="facebook icon"></a>
+                  <a href="https://www.pinterest.com" rel="noopener noreferrer" target="_blank">
+                    <img src="images/iconPinterest.png" alt="pinterest icon"></a>
+                  <a href="https://www.twitter.com" rel="noopener noreferrer" target="_blank">
+                    <img src="images/iconTwitter.png" alt="twitter icon"></a>
+                    <a href="https://www.whatsapp.com" rel="noopener noreferrer" target="_blank">
+                      <img src="images/iconWhatsapp.png" alt="twitter icon"></a>
+              </div>
+        </section>
+
+        &copy; <span id="copyrightYear"></span> | Matthias Arter | Washington | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+        <div><span id="currentDate"></span></div>
+        <p>Weather information courtesy of <a href="https://openweathermap.org/">Open Weather Map</a></p>
+    </footer>   
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/scripts.js"></script>
+    
+
+
+</body>
+</html>

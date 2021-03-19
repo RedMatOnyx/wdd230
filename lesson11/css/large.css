@@ -27,12 +27,12 @@
     form label.sbs {
         padding: .4rem 0;
     }
-    /* .thanks {
+    .thanks {
         display: flex;
         flex-direction: column;
         justify-content: center;
         background-color: lightgray;
-    } */
+    }
     .townsdata {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;

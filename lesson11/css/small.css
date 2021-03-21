@@ -322,3 +322,11 @@ form label.top input:required:valid {
     border: solid moccasin 3px; 
     background-color: seashell;
 }
+.events {
+    justify-content: center;
+    text-align: center;
+    border: solid moccasin 3px; 
+    background-color: seashell;
+    padding: 11px;
+
+}

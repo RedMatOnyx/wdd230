@@ -3,10 +3,12 @@
     
         /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff3232+0,aa0000+100 */
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    .message {
-        font-size: 1.75em;
-        line-height: 1em;
+    #notice {
+        font-size: 18px;
+        line-height: .2em;
+        padding: 1px;
       }
+
     
     nav {
             background: linear-gradient(to bottom, silver 0%, saddlebrown 25%, saddlebrown 75%, wheat 100%); 
@@ -42,7 +44,7 @@
                 justify-content: space-between;
             }
             .fiveDayPics img {
-                width: 100%;
+                width: 60%;
             }
             .fiveDay {
                 display: block;            
@@ -145,7 +147,7 @@
     .townsdata section {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        padding: 10px 10px;
+        padding: 30px 30px;
     }
     .townsdata section:nth-child(odd) img {
         grid-column: 2;
@@ -160,16 +162,17 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    .chillChart h2 {
+    .chillChart h3 {
         grid-column: 2;
-        font-size: 3em;
+        font-size: 1.5em;
     }
     .chillChart p {
         grid-column: 2;
-        font-size: 1.25em;
+        font-size: 1em;
     }
-    .chillChart img {
+    #chart {
         grid-column: 1;
         grid-row: 1;
+        max-width: 100%;
     }
     }

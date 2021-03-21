@@ -330,3 +330,9 @@ form label.top input:required:valid {
     padding: 11px;
 
 }
+.events h2 {
+    text-decoration: none;
+}
+.events hr {
+    max-width: 300px;
+}

@@ -14,6 +14,7 @@ fetch(requestURL)
     trio.forEach(town => {
     let place = document.createElement('section');
     let h2 = document.createElement('h2');
+    let hr = document.createElement('hr');
     let p1 = document.createElement('p');
     let p2 = document.createElement('p');
     let p3 = document.createElement('p');
@@ -37,6 +38,7 @@ fetch(requestURL)
     // image.setAttribute('alt', `photo of ${town.name}`);
 // actually add the content to the container
     blabla.appendChild(h2);
+    blabla.appendChild(hr);
     blabla.appendChild(p1);
     blabla.appendChild(p2);
     blabla.appendChild(p3);

@@ -156,7 +156,7 @@
         grid-column: 1;
         grid-row: 1;
     }
-    .townsdata img {width: 100%; height: auto;padding:0;}
+    /* .townsdata img {width: 100%; height: auto;padding:0;} */
     
     .chillChart {
         display: grid;

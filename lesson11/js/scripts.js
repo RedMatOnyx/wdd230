@@ -78,7 +78,7 @@ function adjustRating(rating) {
 // if (document.querySelector('.active a').textContent == 'Preston' | document.querySelector('.active a').textContent == 'Soda Springs' | document.querySelector('.active a').textContent == 'Fish Haven'){
 
 const weatherpage = document.querySelector('.active a').textContent;
-if (weatherpage == "preston" | weatherpage == "fish haven" | weatherpage == "soda springs"){
+if (weatherpage == "Preston" | weatherpage == "Fish Haven" | weatherpage == "Soda Springs"){
 
 
 const whichtown = document.querySelector('.active a').textContent;

@@ -6,7 +6,7 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
       // temporary checking for valid response and data parsing
-    console.table(jsonObject);  
+    // console.table(jsonObject);  
     const towns = jsonObject['towns']; // inserted line from virtual lab
     // for (let i = 0; i < prophets.length; i++ ) { // refactored below
     // const trio = towns.filter (x => (x.name == 'Preston' | x.name == 'Soda Springs' | x.name == 'Fish Haven'));

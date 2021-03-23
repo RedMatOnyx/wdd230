@@ -74,6 +74,12 @@ function adjustRating(rating) {
 }
 
 /*----------------------- API live weather data ----------------------*/
+// only run weather js on pages that use it
+// if (document.querySelector('.active a').textContent == 'Preston' | document.querySelector('.active a').textContent == 'Soda Springs' | document.querySelector('.active a').textContent == 'Fish Haven'){
+
+const weatherpage = document.querySelector('.active a').textContent;
+if (weatherpage == "preston" | weatherpage == "fish haven" | weatherpage == "soda springs"){
+
 
 const whichtown = document.querySelector('.active a').textContent;
 if (whichtown.includes("Preston")) {
@@ -95,7 +101,7 @@ const apiURL = `https://api.openweathermap.org/data/2.5/weather?${locationid}&un
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => { 
-      //   console.log(jsObject);
+        // console.log(jsObject);
 
     const currdesc = document.querySelector('#currdesc');
     const humidity = document.querySelector('#humidity');
@@ -146,3 +152,4 @@ fetch(apiURL2)
         day++;
     })
   });
+} // end of if weatherpage test

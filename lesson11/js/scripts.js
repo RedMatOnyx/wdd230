@@ -75,7 +75,7 @@ function adjustRating(rating) {
 
 /*----------------------- API live weather data ----------------------*/
 
-const whichtown = document.querySelector('#wayfindertitle').textContent;
+const whichtown = document.querySelector('.active a').textContent;
 if (whichtown.includes("Preston")) {
     locationid = 'id=5604473';
 }

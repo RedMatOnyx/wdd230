@@ -1,0 +1,20 @@
+{
+    "person": [
+      {
+        "name": "Lenny Lofty",
+        "office": "Director",
+        "email": "LoftyLenny@gmail.com"
+      },
+      {
+        "name": "George Oldfellow",
+        "office": "Marketing",
+        "email": "GeorgeOld@gmail.com"
+      },
+      {
+        "name": "Debie Dauntless",
+        "office": "Business Development Associate",
+        "email": "goodbiz@gmail.com"
+      }
+
+    ]
+  }

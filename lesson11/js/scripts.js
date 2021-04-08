@@ -127,7 +127,7 @@ if(jsObject.main.temp < 50 && jsObject.wind.speed > 3) {
 fetch(apiURL2)
   .then(response => response.json())
   .then(jsObject => { 
-    // console.log(jsObject);
+    console.log(jsObject);
 
     //string.includes(18:00:00) Method ... or string.indexof()
     const forecast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));

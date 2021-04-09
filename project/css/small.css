@@ -37,6 +37,17 @@ footer {
 }
 .social img {
   width: 40px;
+  
+}
+.companyads img {
+  background-color: gray;
+  padding: 5px;
+}
+.companyads img {
+  width: 300px;
+}
+#iep {
+  width: 450px;
 }
 .contact img {
   margin-top: 22px;
@@ -73,6 +84,9 @@ nav a {
   padding: 11px;
 }
 nav a:hover {
+  border-bottom: 9px solid rgba(30,144,255,.5);
+}
+.active a {
   border-bottom: 9px solid dodgerblue;
 }
 .logo {
@@ -90,4 +104,24 @@ nav a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
+}
+/* ============ DIRECTORY GRID / LIST ================= */
+
+.cards {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: 1fr;
+  margin: 20px;
+  /* max-width: 100%; */
+}
+
+@media only screen and (min-width: 42rem) {
+  .cards {
+      grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (min-width: 80rem) {
+  .cards {
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
 }

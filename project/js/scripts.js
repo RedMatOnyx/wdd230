@@ -62,7 +62,7 @@ const apiURL = `https://api.openweathermap.org/data/2.5/onecall?${locationid}&ex
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => { 
-        // console.log(jsObject);
+        console.log(jsObject);
 
     const currdesc = document.querySelector('#currdesc');
     const humidity = document.querySelector('#humidity');
@@ -71,23 +71,40 @@ fetch(apiURL)
     currdesc.innerHTML = jsObject.current.weather[0].description;
     curtemp.innerHTML = Math.round(jsObject.current.temp);
     humidity.innerHTML = jsObject.current.humidity;
+      
     
-    const unixTimestamp = jsObject.daily[0].dt;
-    const milliseconds = unixTimestamp * 1000
-    const dateObject = new Date(milliseconds)
-    const humanDateFormat = dateObject.toLocaleString()
-    const d = new Date(humanDateFormat);
-        
-    let day = 0;
+    // let day = 0;
+    // const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+    // document.getElementById(`dayofweek${day+1}`).textContent = weekdays[d.getDay()+1];
+    // document.getElementById(`dayofweek${day+2}`).textContent = weekdays[d.getDay()+2];
+    // document.getElementById(`dayofweek${day+3}`).textContent = weekdays[d.getDay()+3];
+
+    // document.getElementById(`forecast${day+1}`).textContent = Math.round(jsObject.daily[1].temp.day);
+    // document.getElementById(`forecast${day+2}`).textContent = Math.round(jsObject.daily[2].temp.day);
+    // document.getElementById(`forecast${day+3}`).textContent = Math.round(jsObject.daily[3].temp.day);
+
+
+// for reference
+// const forecast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
+    // const forecast = jsObject.daily.filter(x => x.dt);
+    const forecast = jsObject.daily;
+    let day=1;
+forecast.forEach(x => {
+    const d = new Date(jsObject.daily[day].dt*1000);
     const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    console.log(`test: ${weekdays[d.getDay()]}`);
+    document.getElementById(`dayofweek${day}`).textContent = weekdays[d.getDay()];
+    document.getElementById(`forecast${day}`).textContent = Math.round(x.temp.day);
+    day++;
+}); // goes with for each
 
-    document.getElementById(`dayofweek${day+1}`).textContent = weekdays[d.getDay()+1];
-    document.getElementById(`dayofweek${day+2}`).textContent = weekdays[d.getDay()+2];
-    document.getElementById(`dayofweek${day+3}`).textContent = weekdays[d.getDay()+3];
-
-    document.getElementById(`forecast${day+1}`).textContent = Math.round(jsObject.daily[1].temp.day);
-    document.getElementById(`forecast${day+2}`).textContent = Math.round(jsObject.daily[2].temp.day);
-    document.getElementById(`forecast${day+3}`).textContent = Math.round(jsObject.daily[3].temp.day);
+    // const weathericon = document.querySelector(`icon${day+1}`);
+        // const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
+//rather do string interpolation below instead
+// const isrc = `https://openweathermap.org/img/w/${forecast[day].weather[0].icon}.png`;
+// const desc = forecast[day].weather[0].description; //delete
+// reference end
 
 /*-------------------- WEATHER ALERT SECTION ----------------------*/
 // const alertaway = document.querySelector('.alerts');
@@ -110,10 +127,9 @@ fetch(apiURL)
     // document.querySelector(".alerts").style.display = "block";
     
     // document.querySelector(".alerts").textContent = 'no alerts today';
-    document.querySelector(".alertmessage").textContent = jsObject.alerts[0].description;
-    
+    // document.querySelector(".alertmessage").textContent = jsObject.alerts[0].description;
+    // put back
 
- 
 
     
   });

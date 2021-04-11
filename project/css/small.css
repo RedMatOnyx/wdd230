@@ -5,17 +5,25 @@ springgreen 0 255 127,
 lightsalmon 255 160 122, 
 plum 221 160 221, 
 snow 255 250 250 */
-main, .banner img {
+main {
   max-width: 1200px;
 margin: 0 auto;
   background-color: snow;
 }
-
+.banner img {
+  max-width: 100%;
+  margin: auto;
+}
+.banner {
+  display: grid;
+}
 header {
-  display: flex;
-  padding: 5px;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  padding-top: 11px;
   background-color: rgba(221,160,221,.3); /* plum */
-  max-width: 90vw;
+  max-width: 100vw;
 }
 footer {
     background-color: rgba(221,160,221,.3); /* plum */
@@ -25,26 +33,37 @@ footer {
   text-align: right;
 }
 .calltoaction button {
-  margin-left: 11px;
+  margin-left: 21px;
+  border: 3px solid rgba(30,144,255,.5);
+  padding: 9px;
 }
-.logonav {
-  display: flex;
+.calltoaction button:hover {
+  border: 3px solid dodgerblue;
+}
 
-}
 .copyright, .contact, .social {
-  text-align: center;/* display: flex; */
-/* justify: flex-center; */
+  text-align: center;
+  padding: 11px;
 }
 .social img {
   width: 40px;
-  
+  margin: 0 33px;
+}
+.companyads h2 {
+  padding-left: 22px;
 }
 .companyads img {
   background-color: gray;
   padding: 5px;
-}
-.companyads img {
   width: 300px;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+.gallery img {
+  max-width: 100%;
 }
 #iep {
   width: 450px;
@@ -61,20 +80,13 @@ p {
   font-family: 'Raleway', sans-serif;
   font-size: 1.5em;
 }
-nav {
-  position: relative;
-    left: 30%;
-  max-width: 100%;
-  display: inline;
-/*   border: solid 2px green; */
-/*   background-color: snow; */
+article {
+  padding: 22px;
 }
 nav ul {
-  display: flex;
-align-content: space-between;
-}
-li {
-  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+list-style: none;
 }
 nav a {
   font-size: 1.5em;
@@ -89,12 +101,7 @@ nav a:hover {
 .active a {
   border-bottom: 9px solid dodgerblue;
 }
-.logo {
-  position: relative;
-  left: 100px;
-  padding: 11px;
-  /* border: 5px solid dodgerblue; */
-}
+
 .alerts {
   background-color: springgreen;
   padding: 5px;
@@ -113,15 +120,4 @@ nav a:hover {
   grid-template-columns: 1fr;
   margin: 20px;
   /* max-width: 100%; */
-}
-
-@media only screen and (min-width: 42rem) {
-  .cards {
-      grid-template-columns: 1fr 1fr;
-  }
-}
-@media only screen and (min-width: 80rem) {
-  .cards {
-          grid-template-columns: 1fr 1fr 1fr 1fr;
-      }
 }
